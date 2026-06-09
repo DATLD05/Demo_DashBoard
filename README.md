@@ -76,23 +76,7 @@ Copy-Item .env.example .env
 Các biến đang dùng:
 
 ```env
-PORT=3000
 
-# BigQuery connection
-GOOGLE_CLOUD_PROJECT_ID=your-gcp-project-id
-GOOGLE_CLOUD_LOCATION=asia-southeast1
-BIGQUERY_DATASET=your_dataset
-GOOGLE_APPLICATION_CREDENTIALS=./secrets/service-account.json
-
-# Gemini analysis
-GEMINI_API_KEY=your-gemini-api-key
-GEMINI_MODEL=gemini-2.5-flash
-
-# Star schema tables in BigQuery
-BIGQUERY_FACT_ENCOUNTER_METRICS=Fact_Encounter_Metrics
-BIGQUERY_DIM_DATE=Dim_Date
-BIGQUERY_DIM_PROVIDER=Dim_Provider
-BIGQUERY_DIM_ENCOUNTER=Dim_Encounter
 ```
 
 ## Cài đặt
